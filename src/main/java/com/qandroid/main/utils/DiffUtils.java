@@ -1,4 +1,4 @@
-package com.qproject.main.utils;
+package com.qandroid.main.utils;
 /**
  * 二进制对比工具类，提供二进制对比生成查分包方法
  * Created by chengxiang.peng on 2016/11/10.

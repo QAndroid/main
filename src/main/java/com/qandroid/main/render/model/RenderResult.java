@@ -1,6 +1,6 @@
-package com.qproject.main.render.model;
+package com.qandroid.main.render.model;
 
-import com.qproject.common.QBaseResult;
+import com.qandroid.common.QBaseResult;
 
 import org.xutils.http.annotation.HttpResponse;
 

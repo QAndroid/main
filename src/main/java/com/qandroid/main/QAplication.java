@@ -1,4 +1,4 @@
-package com.qproject.main;
+package com.qandroid.main;
 
 import android.app.Application;
 

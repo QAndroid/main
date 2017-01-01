@@ -1,16 +1,15 @@
-package com.qproject.main;
+package com.qandroid.main;
 
 import android.view.View;
 
-import com.qproject.common.QBaseActivity;
-import com.qproject.knowledge.KnowledgeActivity;
-import com.qproject.main.R;
-import com.qproject.test.TestActivity;
-import com.qproject.ui.UiActivity;
-import com.qproject.main.classloader.ClassLoaderActivity;
-import com.qproject.main.render.view.RenderActivity;
-import com.qproject.main.smartupdate.SmartUpdateActivity;
-import com.qproject.feature.FeatureActivity;
+import com.qandroid.common.QBaseActivity;
+import com.qandroid.function.FunctionActivity;
+import com.qandroid.main.classloader.ClassLoaderActivity;
+import com.qandroid.main.render.view.RenderActivity;
+import com.qandroid.main.smartupdate.SmartUpdateActivity;
+import com.qandroid.summary.SummaryActivity;
+import com.qandroid.test.TestActivity;
+import com.qandroid.ui.UiActivity;
 
 import org.xutils.view.annotation.ContentView;
 
@@ -18,11 +17,11 @@ import org.xutils.view.annotation.ContentView;
 public class MainActivity extends QBaseActivity {
 
     public void toFeature(View view) {
-        toActivityByClass(FeatureActivity.class);
+        toActivityByClass(FunctionActivity.class);
     }
 
     public void toKnowledge(View view) {
-        toActivityByClass(KnowledgeActivity.class);
+        toActivityByClass(SummaryActivity.class);
     }
 
     public void toUi(View view) {

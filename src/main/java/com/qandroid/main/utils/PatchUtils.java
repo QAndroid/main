@@ -1,4 +1,4 @@
-package com.qproject.main.utils;
+package com.qandroid.main.utils;
 
 /**
  * 二进制合并工具类，提供二进制合并方法

@@ -1,12 +1,11 @@
-package com.qproject.main.render.presenter;
+package com.qandroid.main.render.presenter;
 
 import android.content.Context;
 import android.widget.Toast;
 
-import com.qproject.common.QConfig;
-import com.qproject.common.utils.HttpsTools;
-import com.qproject.main.render.model.RenderResult;
-import com.qproject.main.render.presenter.RenderContact;
+import com.qandroid.common.QConfig;
+import com.qandroid.common.utils.HttpsTools;
+import com.qandroid.main.render.model.RenderResult;
 
 import org.xutils.common.Callback;
 import org.xutils.http.RequestParams;

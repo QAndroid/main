@@ -1,4 +1,4 @@
-package com.qproject.main.classloader;
+package com.qandroid.main.classloader;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.qproject.main.R;
+import com.qandroid.main.R;
 
 import java.io.File;
 import java.lang.reflect.Constructor;

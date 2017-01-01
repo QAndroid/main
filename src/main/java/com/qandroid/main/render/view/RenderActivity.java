@@ -1,4 +1,4 @@
-package com.qproject.main.render.view;
+package com.qandroid.main.render.view;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,11 +6,12 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.qproject.common.QBaseActivity;
-import com.qproject.main.R;
-import com.qproject.main.render.model.RenderResult;
-import com.qproject.main.render.presenter.RenderContact;
-import com.qproject.main.render.presenter.RenderPresenter;
+
+import com.qandroid.common.QBaseActivity;
+import com.qandroid.main.R;
+import com.qandroid.main.render.model.RenderResult;
+import com.qandroid.main.render.presenter.RenderContact;
+import com.qandroid.main.render.presenter.RenderPresenter;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;

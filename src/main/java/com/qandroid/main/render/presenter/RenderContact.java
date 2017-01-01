@@ -1,10 +1,10 @@
-package com.qproject.main.render.presenter;
+package com.qandroid.main.render.presenter;
 
 import android.content.Context;
 
-import com.qproject.common.QBasePresenter;
-import com.qproject.common.QBaseView;
-import com.qproject.main.render.model.RenderResult;
+import com.qandroid.common.QBasePresenter;
+import com.qandroid.common.QBaseView;
+import com.qandroid.main.render.model.RenderResult;
 
 /**
  * Render页面View和Present层沟通接口定义

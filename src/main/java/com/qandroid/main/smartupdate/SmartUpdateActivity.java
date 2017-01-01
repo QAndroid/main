@@ -1,4 +1,4 @@
-package com.qproject.main.smartupdate;
+package com.qandroid.main.smartupdate;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,9 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.qproject.main.R;
-import com.qproject.main.utils.DiffUtils;
-import com.qproject.main.utils.PatchUtils;
+import com.qandroid.main.R;
+import com.qandroid.main.utils.DiffUtils;
+import com.qandroid.main.utils.PatchUtils;
 
 import java.io.File;
 

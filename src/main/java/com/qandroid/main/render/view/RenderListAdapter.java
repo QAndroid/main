@@ -1,4 +1,4 @@
-package com.qproject.main.render.view;
+package com.qandroid.main.render.view;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,9 +8,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.qproject.common.utils.HttpsTools;
-import com.qproject.main.R;
-import com.qproject.main.render.model.RenderResult;
+import com.qandroid.common.utils.HttpsTools;
+import com.qandroid.main.R;
+import com.qandroid.main.render.model.RenderResult;
 
 import org.xutils.common.util.DensityUtil;
 import org.xutils.http.RequestParams;

@@ -1,4 +1,4 @@
-package com.qproject.main.render.model;
+package com.qandroid.main.render.model;
 
 import com.alibaba.fastjson.JSON;
 
