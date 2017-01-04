@@ -35,5 +35,4 @@ dependencies {
     compile project(':test')
     compile project(':common')
     compile project(':summary')
-    compile project(':leakcanary-android')
 }
