@@ -1,10 +1,6 @@
 package com.qandroid.main;
 
-import android.app.Application;
-
-import com.qandroid.common.QBaseActivity;
 import com.qandroid.common.QBaseApplication;
-import com.squareup.leakcanary.LeakCanary;
 
 import org.xutils.x;
 
