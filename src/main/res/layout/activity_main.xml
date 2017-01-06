@@ -18,8 +18,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="toFeature"
-        android:text="feature" />
+        android:onClick="toFunction"
+        android:text="function" />
 
     <Button
         android:layout_width="wrap_content"

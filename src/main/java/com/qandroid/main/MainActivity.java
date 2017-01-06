@@ -16,7 +16,7 @@ import org.xutils.view.annotation.ContentView;
 @ContentView(R.layout.activity_main)
 public class MainActivity extends QBaseActivity {
 
-    public void toFeature(View view) {
+    public void toFunction(View view) {
         toActivityByClass(FunctionActivity.class);
     }
 
