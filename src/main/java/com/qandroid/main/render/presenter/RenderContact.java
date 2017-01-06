@@ -15,7 +15,6 @@ public interface RenderContact {
     interface ViewQ extends QBaseView<PresenterQ> {
         /**
          * 初始化Render列表的显示
-         * @param renderResult
          */
         void initRenderListShow(RenderResult renderResult);
     }
