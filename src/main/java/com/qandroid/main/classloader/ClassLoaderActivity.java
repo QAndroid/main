@@ -62,8 +62,8 @@ public class ClassLoaderActivity extends AppCompatActivity {
             File optimizedFile = this.getDir("dex", Context.MODE_PRIVATE);
             DexClassLoader dexClassLoader = new DexClassLoader(dexFile.getAbsolutePath(), optimizedFile.getAbsolutePath(), null, getClassLoader());
             Class testClass = dexClassLoader.loadClass("com.example.chengxiangpeng.loaduninstallapk.MainActivity");
-            Constructor constructor = testClass.getConstructor(new Class[]{});
-            Object object = constructor.newInstance(new Object[]{});
+            Constructor constructor = testClass.getConstructor();
+            Object object = constructor.newInstance();
             Method method = testClass.getDeclaredMethod("getText");
             String text = (String) method.invoke(object);
             textView.setText(text);
