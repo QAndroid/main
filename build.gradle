@@ -23,7 +23,12 @@ android {
             path "src/main/cpp/CMakeLists.txt"
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
+
+check.dependsOn 'checkStyle', 'findBugs', 'pmd'
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
