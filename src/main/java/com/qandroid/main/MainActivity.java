@@ -20,7 +20,7 @@ public class MainActivity extends QBaseActivity {
         toActivityByClass(FunctionActivity.class);
     }
 
-    public void toKnowledge(View view) {
+    public void toSummary(View view) {
         toActivityByClass(SummaryActivity.class);
     }
 

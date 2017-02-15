@@ -29,8 +29,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="toKnowledge"
-        android:text="knowledge" />
+        android:onClick="toSummary"
+        android:text="summary" />
 
     <Button
         android:layout_width="wrap_content"
